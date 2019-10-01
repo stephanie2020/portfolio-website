@@ -9,23 +9,27 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <i class="fas fa-bars"></i>
 </head>
 
 
 <body>
 
   <header id="navbar">
+    <div class="navtoggle" id="myNavtoggle">
     <div class="container">
       <a href="index.html"><img src="img/logo/logo.svg" class="logo" alt="Logo"></a>
 
       <nav>
         <ul>
-          <li><a href="index.html#work">Work</a></li>
+          <li><a href="#work">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
 
+    </div>
     </div>
   </header>
 
@@ -165,6 +169,12 @@
       </div>
     </div>
   </footer>
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
 
 <script src="js/scripts.js"></script>
 
