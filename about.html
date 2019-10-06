@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <i class="fas fa-bars"></i>
+  <script src="https://kit.fontawesome.com/915f5c5228.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -17,19 +17,19 @@
 
   <header id="navbar">
     <div class="navtoggle" id="myNavtoggle">
-    <div class="container">
-      <a href="index.html"><img src="img/logo/logo.svg" class="logo" alt="Logo"></a>
+      <div class="container">
+        <a href="index.html"><img src="img/logo/logo.svg" class="logo" alt="Logo"></a>
 
-      <nav>
-        <ul>
-          <li><a href="#work">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
 
-    </div>
+      </div>
     </div>
   </header>
 
@@ -46,23 +46,33 @@
     <!-- ABOUT CONTENT OPEN -->
     <div id="profile">
 
-      <div class="container">
-        <div>
-          <picture>
-            <source srcset="img/about/profile-pic-1x.jpg" media="(max-width:767px)">
-            <img src="img/about/profile-pic-2x.jpg" alt="Profile Picture">
-          </picture>
-        </div>
 
-        <div>
-          <h3>My Story</h3>
-          <p>As a webmaster with a background in graphic design, I have a strong sense for visual design that can be applied to improving a user’s experience. All aspects of my career including web maintenance as well as graphic and email design have required problem-solving skills that can be applied to UX/UI design. My ability to effectively identify and communicate issues to change and enhance websites will be beneficial to the UX and UI process.</p>
-          <a href="files/stephanie-ausfresser-resume.pdf" target="_blank" class="button">Download Resume</a>
+      <div class="container">
+        <div id="story">
+          <div class="row">
+
+            <div class="column col-md-6 col-lg-5">
+              <picture>
+                <source srcset="img/about/profile-pic-1x.jpg" media="(max-width:767px)">
+                <img src="img/about/profile-pic-2x.jpg" alt="Profile Picture">
+              </picture>
+            </div>
+
+            <div class="column col-md-6 col-lg-7 intro-copy">
+              <h3>My Story</h3>
+              <p>As a webmaster with a background in graphic design, I have a strong sense for visual design that can be applied to improving a user’s experience. All aspects of my career including web maintenance as well as graphic and email design
+                have required problem-solving skills that can be applied to UX/UI design. My ability to effectively identify and communicate issues to change and enhance websites will be beneficial to the UX and UI process.</p>
+              <a href="files/stephanie-ausfresser-resume.pdf" target="_blank" class="button">Download Resume</a>
+            </div>
+
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="container">
+
+      <div class="container">
+        <div class="row">
+
           <div class="column col-md-6">
             <h3>Software</h3>
             <ul>
@@ -75,7 +85,7 @@
             </ul>
           </div>
 
-          <div class="container">
+
             <div class="column col-md-6">
               <h3>Skills</h3>
               <ul>
@@ -89,7 +99,6 @@
               </ul>
             </div>
 
-          </div>
         </div>
       </div>
 
@@ -101,7 +110,7 @@
   <footer id="contact">
     <div class="container">
       <h2>Get in Touch</h2>
-      <p>If you'd like to learn more about a project, interested in working together, or just want to chat, please reach out.</p>
+      <p class="contact-copy">If you'd like to learn more about a project, interested in working together, or just want to chat, please reach out.</p>
       <div>
         <a href="mailto:sausfresser@gmail.com" class="button contact">Email Me</a>
         <a href="tel:410-599-4921" class="button contact">Call Me</a>
@@ -171,12 +180,9 @@
   </footer>
 
 
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-<script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 
 </body>
 
