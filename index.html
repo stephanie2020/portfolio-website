@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <i class="fas fa-bars"></i>
+  <script src="https://kit.fontawesome.com/915f5c5228.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -24,8 +24,8 @@
         <ul>
           <li><a href="#work">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+          <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
 
@@ -88,9 +88,10 @@
           <!-- PROJECT 2 DESCRIPTION -->
           <div class="column col-md-6 col-lg-5">
             <h3>Fitted</h3>
+            <h5>UI CASE STUDY</h5>
             <p>A responsive web app for exercises and workouts. Fitted is geared toward those who are new or returning to fitness and are striving for a healthier lifestyle.</p>
             <p>UI Designer | Sketch, Illustrator, Flinto</p>
-            <a href="#" class="button">View Project</a>
+            <a href="fitted.html" class="button">View Project</a>
           </div>
 
         </div>
@@ -1071,7 +1072,7 @@
   <footer id="contact">
     <div class="container">
       <h2>Get in Touch</h2>
-      <p>If you'd like to learn more about a project, interested in working together, or just want to chat, please reach out.
+      <p class="contact-copy">If you'd like to learn more about a project, interested in working together, or just want to chat, please reach out.
         <div>
           <a href="mailto:sausfresser@gmail.com" class="button contact">Email Me</a>
           <a href="tel:410-599-4921" class="button contact">Call Me</a>
