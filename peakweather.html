@@ -9,22 +9,27 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/915f5c5228.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
 
   <header id="navbar">
+    <div class="navtoggle" id="myNavtoggle">
     <div class="container">
       <a href="index.html"><img src="img/logo/logo.svg" class="logo" alt="Logo"></a>
 
       <nav>
         <ul>
-          <li><a href="#work">Work</a></li>
+          <li><a href="index.html#work">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
+
+    </div>
     </div>
   </header>
 
@@ -40,17 +45,13 @@
           <p><strong>Duration of Project:</strong> November 2018-June 2019</p>
           <p class="section-break"><strong>Tools:</strong> Adobe XD, Photoshop, Illustrator</p>
           <h3>Purpose</h3>
-          <p class="section-break">Multiple factors can determine if a hike is successful and with weather being a main factor, preparing for it is a must. The weather on and at a summit of a mountain is often different than what most weather forecasts provide which is
-            the
-            surrounding towns.</p>
+          <p class="section-break">Multiple factors can determine if a hike is successful and with weather being a main factor, preparing for it is a must. The weather on and at a summit of a mountain is often different than what most weather forecasts provide which is the surrounding towns.</p>
           <h3>Objective</h3>
-          <p>To view an accurate weather forecast five days in advance as well as immediately while on the mountain. By simplifying and organizing the data, this will help hikers to decide if it’s safe to adventure out on the trail or make quick
-            decisions when already on the mountain.</p>
-          <p>UX/UI Designer | Adobe XD, Photoshop, Illustrator</p>
+          <p>To view an accurate weather forecast five days in advance as well as immediately while on the mountain. By simplifying and organizing the data, this will help hikers to decide if it’s safe to adventure out on the trail or make quick decisions when already on the mountain.</p>
         </div>
 
 
-        <div>
+        <div class="work-pic">
           <picture>
             <source srcset="img/home/project-peakweather-1x.jpg" media="(max-width:767px)">
             <img src="img/home/project-peakweather-2x.jpg" alt="PeakWeather Mockup" class="section-break">
@@ -67,7 +68,7 @@
             <p>I started my research with a competitive analysis of two weather apps specifically designed for outdoor adventure. I developed a marketing profile and UX analysis of each app. This assessment provided an insight to the expectations of a weather app as well as their flaws. I also conducted an in-person interview with three participants that were chosen based on their hiking experience and interest in weather. The goal was to understand a user’s process when planning for a hike, what information users rely on from the app, and how frequent users check the weather for a hike.</p>
           </div>
 
-          <div>
+          <div class="work-pic">
             <picture>
               <source srcset="img/peakweather/peakweather-competitive-analysis-1x.png" media="(max-width:767px)">
               <img src="img/peakweather/peakweather-competitive-analysis-2x.png" alt="Competitive Analysis Report" class="section-break">
@@ -84,7 +85,7 @@
             <p>I developed two personas with varied ages and interests. For each persona, I created a user journey. Finally, I developed a user flow with a task to view the 5 day forecast at the summit of a mountain.</p>
           </div>
 
-          <div>
+          <div class="work-pic">
             <picture>
               <source srcset="img/peakweather/peakweather-personas-1x.png" media="(max-width:767px)">
               <img src="img/peakweather/peakweather-personas-2x.png" alt="User Persona">
@@ -111,10 +112,10 @@
           <p>The goal was to minimize the amount of content while providing the most important information on the homepage. The internal pages with the high data content need to be simplified to read in full detail or scan quickly.</p>
         </div>
 
-        <div>
+        <div class="work-pic">
           <picture>
             <source srcset="img/peakweather/peakweather-wireframes-mid-1x.png" media="(max-width:767px)">
-            <img src="img/peakweather/peakweather-wireframes-mid-2x.png" alt="Mid Fidelty Wireframes" class="section-break">
+            <img src="img/peakweather/peakweather-wireframes-mid-2x.png" alt="Mid Fidelty Wireframes" class="section-break" class="img-size">
           </picture>
         </div>
 
@@ -125,7 +126,7 @@
           <p>With the mid fidelity wireframes, I moderated a usability test and A/B Preference Test. Using affinity mapping and a rainbow spreadsheet to organize the responses, I reworked the mid fidelity wireframes to develop mockups.</p>
         </div>
 
-        <div>
+        <div class="work-pic">
           <picture>
             <source srcset="img/peakweather/peakweather-testingAB-1x.png" media="(max-width:767px)">
             <img src="img/peakweather/peakweather-testingAB-2x.png" alt="A/B Testing">
@@ -145,7 +146,7 @@
   <footer id="contact">
     <div class="container">
       <h2>Get in Touch</h2>
-      <p>If you'd like to learn more about a project, interested in working together, or just want to chat, please reach out.
+      <p class="contact-copy">If you'd like to learn more about a project, interested in working together, or just want to chat, please reach out.
         <div>
           <a href="mailto:sausfresser@gmail.com" class="button contact">Email Me</a>
           <a href="tel:410-599-4921" class="button contact">Call Me</a>
