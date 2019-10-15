@@ -61,7 +61,8 @@ nav>ul>li>a {
 }
 
 .icon {
-  color: #00abc8;
+  color: #008299;
+  background-color: #ffffff;
 }
 
 #navbar {
@@ -88,8 +89,6 @@ nav>ul>li>a {
   border-bottom: 1px solid #cccccc;
   padding-bottom: 40px;
 }
-
-
 
 footer {
   text-align: center;
@@ -125,17 +124,17 @@ img {
 }
 
 a {
-  color: #00abc8;
+  color: #008299;
   text-decoration: none;
 }
 
 a:hover {
-  color: #00abc8;
+  color: #008299;
   opacity: 0.8;
 }
 
 a:active {
-  color: #00abc8;
+  color: #008299;
   opacity: 0.8;
 }
 
@@ -150,7 +149,7 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color: #00abc8;
+  background-color: #008299;
   color: #ffffff !important;
   font-size: .9em;
   font-weight: 500;
@@ -167,17 +166,17 @@ a:active {
 
 .button.contact {
   background-color: #ffffff;
-  color: #00abc8 !important;
+  color: #008299 !important;
   text-transform: uppercase;
-  border: 2px solid #00abc8;
+  border: 2px solid #008299;
   transition: .2s opacity;
   padding: 10px 25px;
   letter-spacing: 1px;
 }
 
 .button.contact:hover {
-  background-color: #00abc8;
-  opacity: .8;
+  background-color: #008299;
+  opacity: 0.8;
   color: #ffffff !important;
 }
 
@@ -327,7 +326,6 @@ a:active {
     margin: auto;
     padding-bottom: 20px;
   }
-
 }
 
 /* LARGE DEVICES 1024px or larger */
